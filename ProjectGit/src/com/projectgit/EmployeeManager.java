@@ -13,5 +13,10 @@ public class EmployeeManager {
 		empList.add(e1);
 		return empList;
 	}
+	
+	public static void main(String[] args) {
+		List<Employee> employees=populateEmployee();
+		System.out.println(employees);
+	}
 
 }
