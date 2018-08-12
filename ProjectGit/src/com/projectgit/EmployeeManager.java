@@ -13,5 +13,9 @@ public class EmployeeManager {
 		empList.add(e1);
 		return empList;
 	}
+	
+	public static void main(String[] args) {
+		System.out.println("In main method");
+	}
 
 }
