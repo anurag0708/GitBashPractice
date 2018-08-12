@@ -17,6 +17,7 @@ public class Employee {
 		this.employeeName = employeeName;
 	}
 	@Override
+<<<<<<< HEAD
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
@@ -41,6 +42,10 @@ public class Employee {
 		} else if (!employeeName.equals(other.employeeName))
 			return false;
 		return true;
+=======
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + "]";
+>>>>>>> 11b0e600e78f878a8125cd57f266bdf2870af98f
 	}
 
 
