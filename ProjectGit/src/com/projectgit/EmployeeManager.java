@@ -18,7 +18,7 @@ public class EmployeeManager {
 		List<Employee> employees=populateEmployee();
 		System.out.println(employees);
 		
-		System.out.println("testing git bash");
+		
 	}
 
 }
